@@ -1,0 +1,248 @@
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;}
+
+.faixa{
+    position: absolute;
+    height: 100px;
+    width: 100%;
+    top: -9%;
+    z-index: 5;
+
+}
+
+body{
+    background-color: rgb(5, 5, 242);
+}
+
+.cabe_b99{
+    height: 424px;
+    width: 480px;
+    position: fixed;
+    bottom: 6%;
+    left: 30px;
+    z-index:10;}
+
+h1 {
+    color: white;
+    border: rgb(22, 5, 179);
+    font-size: 150px;
+    font-family: 'Bebas Neue', serif, bold;
+    line-height: 0.8;
+    position: fixed;
+    top: 10%;
+    left: 30px;
+    z-index:5;
+    text-shadow: 0 0 200px rgb(22, 5, 179);}
+
+.bio {
+    font-family:"Special Gothic Expanded One", serif, bold ;
+    position: absolute;
+    text-shadow: 0 0 30px rgba(10, 0, 95, 0.973);
+    top: 10%;
+    right: 0px;
+    margin-right: 50px;
+    margin-bottom: 30px;
+    text-align: center;
+    font-size: 19px;
+    color: #12048d;
+    line-height: 1.7;
+    max-width: 700px;
+    font-weight: 500;
+    }
+
+
+    .box3{
+        position:absolute;
+        top: 350px;
+        right: 30px;
+        width: 370px;
+        height: 200px;
+        padding: 10px;
+        box-shadow: 0 0 30px rgba(255, 176, 5, 0.973);                
+        border-radius: 40px;
+        margin: 15px;
+        background-color: #ffd000;}
+
+.per {
+    font-family: 'Bebas Neue', serif ;
+    position: absolute;
+    top: 15px;
+    right: 90px;
+    text-align: center;
+    text-shadow: 0 0 30px rgb(226, 68, 19);
+    font-size: 40px;
+    color: #ffffff;
+    z-index: 4;}
+
+.netflix{
+    position: absolute;
+    top: 50px;
+    right: 50px;
+    width: 100px;
+    display: block;
+    margin: auto;
+    height: 130px;
+    width: auto;
+    border-radius: 30px;
+    z-index: 4;}
+
+
+.box2{
+    position:absolute;
+    top: 350px;
+    right: 420px;
+    width: 370px;
+    height: 310px;
+    padding: 10px;
+    box-shadow: 0 0 30px rgba(255, 176, 5, 0.973);                
+    border-radius: 40px;
+    margin: 15px;
+    background-color: #ffd000;
+    z-index: 3;}
+
+.lis1{
+    position: absolute;
+    color: #030099;
+    font-family:Georgia, serif;
+    top: 380px;
+    right: 450px;
+    width: 300px;
+    z-index: 4;
+    font-size: 15px;
+    text-shadow: 0 0 30px rgba(#ca9607);}
+
+.lis2{
+    position: absolute;
+    color: #030099;
+    font-family:Georgia, serif;
+    top: 480px;
+    right: 450px;
+    width: 300px;
+    z-index: 4;
+    font-size: 15px;
+    text-shadow: 0 0 30px rgba(#ca9607);}
+
+.lis3{
+    position: absolute;
+    color: #030099;
+    font-family:Georgia, serif;
+    top: 580px;
+    right: 450px;
+    width: 300px;
+    z-index: 4;
+    font-size: 14px;
+    text-shadow: 0 0 30px rgba(#ca9607);}
+
+
+.persona{
+    position: absolute;
+    font-family: 'Bebas Neue', serif;
+    color: #ffffff;
+    top: 700px;
+    right: 35px;
+    font-size: 180px;
+    text-shadow: 0px 0px 40px rgb(10, 0, 95, 0.973);}
+
+.peraltaa{
+    position: absolute;
+    top: 930px;
+    right: 500px;
+    width: 310px;
+    border-radius: 30px;
+    box-shadow: 0px 0px 200px rgb(10, 0, 95, 0.973);}
+
+.info_peralta{
+    font-family:Georgia, serif ;
+    position: absolute;
+    text-shadow: 0 0 40px rgba(255, 230, 0, 0.973);
+    top: 930px;
+    right: 30px;
+    margin-right: 30px;
+    font-size: 16px;
+    color: #ffffff;
+    line-height: 1.7;
+    max-width: 400px;
+    font-weight: 1800;
+    }
+
+.terry{
+    position: absolute;
+    top: 1270px;
+    right: 500px;
+    width: 310px;
+    border-radius: 30px;
+    box-shadow: 0px 0px 200px rgb(10, 0, 95, 0.973);}
+
+.info_terry{
+    font-family:Georgia, serif ;
+    position: absolute;
+    text-shadow: 0 0 40px rgba(255, 230, 0, 0.973);
+    top: 1270px;
+    right: 30px;
+    margin-right: 30px;
+    margin-bottom: 30px;
+    font-size: 16px;
+    color: #ffffff;
+    line-height: 1.7;
+    max-width: 400px;
+    font-weight: 100;
+    }
+
+.amy{
+    position: absolute;
+    top: 1640px;
+    right: 500px;
+    width: 310px;
+    border-radius: 30px;
+    box-shadow: 0px 0px 200px rgb(10, 0, 95, 0.973);}
+
+.info_amy{
+    font-family:Georgia, serif ;
+    position: absolute;
+    text-shadow: 0 0 40px rgba(255, 230, 0, 0.973);
+    top: 1633px;
+    right: 30px;
+    margin-right: 30px;
+    margin-bottom: 30px;
+    font-size: 16px;
+    color: #ffffff;
+    line-height: 1.6;
+    max-width: 400px;
+    font-weight: 100;
+    }
+
+.boyle{
+    position: absolute;
+    top: 1970px;
+    right: 500px;
+    width: 310px;
+    border-radius: 30px;
+    box-shadow: 0px 0px 200px rgb(10, 0, 95, 0.973);}
+
+.info_boyle{
+    font-family:Georgia, serif ;
+    position: absolute;
+    text-shadow: 0 0 40px rgba(255, 230, 0, 0.973);
+    top: 1975px;
+    right: 30px;
+    margin-right: 30px;
+    margin-bottom: 30px;
+    font-size: 16px;
+    color: #ffffff;
+    line-height: 1.8;
+    max-width: 400px;
+    font-weight: 100;
+    }
+
+
+    .faixa2{
+        position: absolute;
+        height: 100px;
+        width: 100%;
+        top: 330%;
+        z-index: 5;
+    
+    }
